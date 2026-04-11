@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gains & Grains Admin | Dashboard</title>
+    <link rel="stylesheet" href="hmpg.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/umd/lucide.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+</head>
+
+<body>
+    <div id="app">
+        <div id="toast-container"></div>
+        <nav id="main-header" class="main-header">
+            <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
+                <div class="logo-container cursor-pointer" onclick="navigate('login')">
+                    <div class="logo-icon"><i data-lucide="zap" style="width:24px;height:24px"></i></div>
+                    <span class="logo-text hidden sm:block">GAINS<span>&amp;</span>GRAINS</span>
+                </div>
+                <div class="flex items-center gap-4">
+                    <div id="nav-links" class="flex items-center gap-4"></div>
+                    <div class="theme-toggle" onclick="toggleTheme()">
+                        <i data-lucide="moon" id="theme-icon" style="width:20px;height:20px"></i>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <main id="page-container" class="min-h-screen pt-20"></main>
+
+        <footer id="main-footer" class="glass mt-20 border-t border-neon/20 py-12">
+            <div class="max-w-7xl mx-auto px-4">
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                    <div>
+                        <div class="flex items-center gap-2 mb-4">
+                            <div class="logo-icon w-8 h-8"><i data-lucide="zap" style="width:16px;height:16px"></i>
+                            </div>
+                            <span class="font-display font-bold">G&G</span>
+                        </div>
+                        <p class="text-sm text-muted">Premium fitness equipment and sports gear in the Philippines.
+                            Elevate your game with Gains & Grains.</p>
+                    </div>
+                    <div>
+                        <h4 class="font-display font-bold mb-4">Admin Links</h4>
+                        <ul class="space-y-2 text-sm text-muted">
+                            <li><a href="#" onclick="event.preventDefault(); navigate('admin')" class="hover:text-neon transition cursor-pointer">Dashboard</a></li>
+                            <li><a href="#" onclick="event.preventDefault(); navigate('faq')" class="hover:text-neon transition cursor-pointer">FAQ</a></li>
+                            <li><a href="#" onclick="event.preventDefault(); navigate('contact')" class="hover:text-neon transition cursor-pointer">Contact</a></li>
+                            <li><a href="#" onclick="event.preventDefault(); navigate('login')" class="hover:text-neon transition cursor-pointer">Login</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="font-display font-bold mb-4">Our Location</h4>
+                        <ul class="space-y-2 text-sm text-muted">
+                            <li class="flex items-start gap-2"><i data-lucide="map-pin"
+                                    style="width:16px;height:16px;margin-top:2px"></i><span>Gains & Grains
+                                    HQ<br>Josephine Resort Subdivision,<br>Kawit, Cavite, Philippines 4104</span></li>
+                            <li class="flex items-center gap-2 mt-2"><i data-lucide="globe"
+                                    style="width:16px;height:16px"></i><a href="#"
+                                    onclick="event.preventDefault(); showLocationMap()"
+                                    class="text-neon hover:underline">View on Map</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="border-t border-neon/20 mt-8 pt-8 text-center text-sm text-muted">
+                    <p>&copy; 2026 Gains & Grains. All rights reserved. | Your Ultimate Fitness Destination</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script>
+        window.adminEntry = true;
+    </script>
+    <script src="lgchmpg.js"></script>
+    <script src="ui-admin.js"></script>
+    <script>
+        navigate('login');
+    </script>
+</body>
+
+</html>
