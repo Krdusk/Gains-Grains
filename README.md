@@ -1,4 +1,4 @@
-# G&G Gains and Grains
+# Gains&Grains
 
 ## Project Overview
 **G&G Gains and Grains** is an e-commerce platform developed for a Database Systems course. It demonstrates the integration of a web-based interface with a relational database, enabling dynamic product management and reliable data storage.
