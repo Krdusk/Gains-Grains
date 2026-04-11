@@ -4,8 +4,8 @@
 **G&G Gains and Grains** is an e-commerce platform developed for a Database Systems course. It demonstrates the integration of a web-based interface with a relational database, enabling dynamic product management and reliable data storage.
 
 ## Developers
-- Samantha Lui A. Santos — Lead Developer  
-- Mhicaela Cinco — Lead Developer  
+- Samantha Lui A. Santos — Full Stack Developer and Tester.
+- Mhicaela Cinco — Concept Development and Debugging.
 
 ## Design Inspiration
 The platform’s visual design focuses on a distinct and engaging user experience, influenced by:
