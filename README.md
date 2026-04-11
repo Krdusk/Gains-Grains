@@ -1,13 +1,13 @@
 # Gains&Grains
 
-## Project Overview
+## Project Overview:
 **G&G Gains and Grains** is an e-commerce platform developed for a Database Systems course. It demonstrates the integration of a web-based interface with a relational database, enabling dynamic product management and reliable data storage.
 
-## Developers
+## Developers:
 - Samantha Lui A. Santos — Full Stack Developer and Tester.
 - Mhicaela Cinco — Concept Development and Debugging.
 
-## Design Inspiration
+## Design Inspiration:
 The platform’s visual design focuses on a distinct and engaging user experience, influenced by:
 
 - Neon Aesthetics  
@@ -16,24 +16,24 @@ The platform’s visual design focuses on a distinct and engaging user experienc
 - Pixar Animations  
   Clean, expressive, and user-friendly design inspired by Pixar’s storytelling style, ensuring accessibility and visual appeal.
 
-## Technical Stack
+## Technical Stack:
 - Server Environment: XAMPP  
 - Backend: PHP  
 - Database: MySQL (gains_grains_db)  
 - Data Format: JSON  
 - Frontend: HTML, CSS, JavaScript  
 
-## Prerequisites
+## Prerequisites:
 Ensure that XAMPP is installed on your system before running the project.
 
-### Installing XAMPP
+### Installing XAMPP:
 1. Visit: https://www.apachefriends.org/download.html  
 2. Download the version compatible with your operating system.  
 3. Run the installer and follow the setup instructions.  
 4. Make sure Apache and MySQL are selected.  
 5. Install in your preferred directory (e.g., C:\xampp).  
 
-## Running the Project
+## Running the Project:
 
 ### 1. Prepare Project Files
 - Open your XAMPP directory.  
