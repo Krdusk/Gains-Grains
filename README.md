@@ -66,10 +66,10 @@ Ensure all files are placed correctly to avoid errors when running the system.
 
 ---
 
-## Shazam
+## Mario says:
 
 <p align="center">
-  <img src="https://media.tenor.com/8QxY8V9vX2cAAAAC/mario-yipee.gif" alt="Mario Yipee" width="200"/>
+  <img src="mario.gif" alt="Mario Yipee" width="200"/>
 </p>
 
-<p align="center"><strong>yipee</strong></p>
+<p align="center"><strong>Yippee</strong></p>
