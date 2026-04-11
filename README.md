@@ -72,4 +72,4 @@ Ensure all files are placed correctly to avoid errors when running the system.
   <img src="mario.gif" alt="Mario Yipee" width="200"/>
 </p>
 
-<p align="center"><strong>Yippee</strong></p>
+<p align="center"><strong>Yippee!</strong></p>
