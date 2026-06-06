@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gains & Grains Admin | Dashboard</title>
+    <link rel="stylesheet" href="hmpg.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/umd/lucide.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+</head>
+
+<body>
+    <div id="app">
+        <div id="toast-container"></div>
+        <nav id="main-header" class="main-header">
+            <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
+                <div class="logo-container cursor-pointer" onclick="navigate('login')">
+                    <div class="logo-icon"><i data-lucide="zap" style="width:24px;height:24px"></i></div>
+                    <span class="logo-text hidden sm:block">GAINS<span>&amp;</span>GRAINS</span>
+                </div>
+                <div class="flex items-center gap-4">
+                    <div id="nav-links" class="flex items-center gap-4"></div>
+                    <div class="theme-toggle" onclick="toggleTheme()">
+                        <i data-lucide="moon" id="theme-icon" style="width:20px;height:20px"></i>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <main id="page-container" class="min-h-screen pt-20"></main>
+    </div>
+    <script>
+        window.adminEntry = true;
+    </script>
+    <script src="lgchmpg.js"></script>
+    <script src="ui-admin.js?v=4"></script>
+    <script>
+        navigate('login');
+    </script>
+</body>
+
+</html>
