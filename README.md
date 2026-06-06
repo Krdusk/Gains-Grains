@@ -1,7 +1,7 @@
 # Gains&Grains
 
 ## Project Overview:
-**G&G Gains and Grains** is an e-commerce platform developed for a Database Systems course. It demonstrates the integration of a web-based interface with a relational database, enabling dynamic product management and reliable data storage.
+**G&G Gains and Grains** is an e-commerce platform developed for a Database Systems course. It demonstrates the integration of a web-based interface with a relational database, enabling dynamic product management, and reliable data storage.
 
 ## Developers:
 - Samantha Lui A. Santos — Full Stack Developer and Tester.
@@ -10,10 +10,10 @@
 ## Design Inspiration:
 The platform’s visual design focuses on a distinct and engaging user experience, influenced by:
 
-- Neon Aesthetics  
+- Neon Aesthetics:  
   High-contrast visuals and glowing elements that create a modern and energetic interface.
 
-- Pixar Animations  
+- Pixar Animations:  
   Clean, expressive, and user-friendly design inspired by Pixar’s storytelling style, ensuring accessibility and visual appeal.
 
 ## Technical Stack:
