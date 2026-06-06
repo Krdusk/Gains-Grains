@@ -4,8 +4,8 @@
 **Gains & Grains** is an e-commerce platform built for a Database Systems course. The application integrates a web-based interface with a relational database to demonstrate dynamic product management, user authentication, order handling, and administrative controls.
 
 ## Developers:
-- Samantha Lui A. Santos — Full Stack Developer and Tester
-- Mhicaela Cinco — Concept Development and Debugging
+- Samantha Lui Santos - Full Stack Developer and Tester
+- Mhicaela Cinco - Concept Development and Debugging
 
 ## Design Inspiration:
 The platform’s visual design focuses on a bold and engaging user experience with:
